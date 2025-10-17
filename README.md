@@ -13,8 +13,11 @@ A modern web application for AI-powered image generation, video creation, and ch
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/mbrownnycnyc/zai-ui.git
 cd zai-ui
+
+# Clone the API documentation repository (required for development)
+git clone https://github.com/mbrownnycnyc/zai-api-documentation.git
 
 # Install dependencies
 npm install
@@ -32,6 +35,17 @@ npm run dev
 ```
 
 The application will be available at `http://localhost:3000`.
+
+### Required Documentation
+
+The **zai-api-documentation** repository contains essential API documentation for z.ai integration. This repository must be cloned alongside the main project for development:
+
+- **API Endpoints**: Complete z.ai API reference
+- **Rate Limits**: Current concurrency limits and usage guidelines
+- **Authentication**: API key setup and security requirements
+- **Error Handling**: Common error codes and troubleshooting
+
+The documentation is excluded from the main repository via `.gitignore` but is required for development and API integration work.
 
 ## 🏗️ Architecture
 
