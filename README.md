@@ -2,7 +2,7 @@
 
 A modern web application for AI-powered image generation, video creation, and chat interactions with persistent storage capabilities.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -47,7 +47,7 @@ The **zai-api-documentation** repository contains essential API documentation fo
 
 The documentation is excluded from the main repository via `.gitignore` but is required for development and API integration work.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Technology Stack
 
@@ -66,7 +66,7 @@ The documentation is excluded from the main repository via `.gitignore` but is r
 - **Vercel** - Primary deployment platform
 - **GitHub Actions** - CI/CD pipeline
 
-## 🎯 Core Features
+## Core Features
 
 ### 1. Image Generation Suite
 - **Batch Processing**: Generate 5-10 images simultaneously with consistent parameters
@@ -96,7 +96,7 @@ The documentation is excluded from the main repository via `.gitignore` but is r
 - **Annual Content Rolling**: 30-day advance warnings for content cleanup
 - **User-Managed Backups**: Manual backup and restore operations
 
-## 🔧 Development
+## Development
 
 ### Project Structure
 
@@ -162,7 +162,7 @@ npx zai-ui chat --thread "project-discussion" --export pdf
 npx zai-ui suggest-prompts --context "web development"
 ```
 
-## 📊 Performance Targets
+## Performance Targets
 
 ### Core Web Vitals
 - **First Contentful Paint**: <3 seconds
@@ -182,7 +182,7 @@ npx zai-ui suggest-prompts --context "web development"
 - **User Satisfaction**: 4.5/5 average rating
 - **API Compliance**: 100% adherence to rate limits
 
-## 🔒 Security
+## Security
 
 - **HTTPS Enforcement**: All environments
 - **Content Security Policy**: Configured headers
@@ -190,7 +190,7 @@ npx zai-ui suggest-prompts --context "web development"
 - **Input Validation**: Comprehensive sanitization
 - **API Authentication**: Secure key-based access
 
-## 📱 Accessibility
+## Accessibility
 
 - **Responsive Design**: Mobile and desktop optimized
 - **Touch Support**: Mobile device navigation
@@ -198,7 +198,7 @@ npx zai-ui suggest-prompts --context "web development"
 - **Keyboard Navigation**: Full keyboard accessibility
 - **High Contrast**: Support for high contrast modes
 
-## 🗂️ Database Schema
+## Database Schema
 
 ### Core Tables
 - **users**: User accounts and preferences
@@ -213,7 +213,7 @@ npx zai-ui suggest-prompts --context "web development"
 - Optimized indexes for search and retrieval
 - JSON columns for flexible metadata storage
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Primary)
 ```bash
@@ -234,14 +234,14 @@ Required environment variables:
 - `ZAI_API_KEY`: z.ai API authentication
 - `STORAGE_ENDPOINT`: File storage endpoint
 
-## 📚 Documentation
+## Documentation
 
 - **API Documentation**: `/docs/api` (OpenAPI specification)
 - **Component Docs**: Storybook for component library
 - **Architecture**: `/docs/architecture.md`
 - **Deployment Guide**: `/docs/deployment.md`
 
-## 🧪 Testing
+## Testing
 
 ### Test Strategy
 - **Integration-First**: Focus on integration tests over unit tests
@@ -255,7 +255,7 @@ Required environment variables:
 - **Database Tests**: Schema validation and query performance
 - **E2E Tests**: Critical user journey validation
 
-## 📋 Development Workflow
+## Development Workflow
 
 ### Branch Strategy
 - `main`: Production-ready code
@@ -275,7 +275,7 @@ Required environment variables:
 - Performance review for optimizations
 - Accessibility review for UI components
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -285,11 +285,11 @@ Required environment variables:
 6. Address review feedback
 7. Merge to develop branch
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 - **Documentation**: Check `/docs` directory
 - **Issues**: Create GitHub issue with detailed description
@@ -298,4 +298,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ using Next.js, TypeScript, and PostgreSQL**
+**Built with Next.js, TypeScript, and PostgreSQL**
